@@ -1,0 +1,99 @@
+body{
+  background-color: #0D2B50;
+  text-align: center;
+  
+}
+.Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frm-Container{
+  border: none;
+  border-radius: 12px;
+  margin: 10%;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-Items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff; 
+  position: relative;
+}
+
+
+input{
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 340px;
+  height: 33px;
+  font-size:medium;
+  padding-left: 25px;
+  outline: none;
+}
+
+.main-btn{
+  border: none;
+  border-radius: 3px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #E94343;
+}
+
+.alt-btn{
+  border: none;
+  border-radius: 3px;
+  width: 220px;
+  height: 30px;
+  padding: 7px;
+  background-color: #D0D3D4;
+}
+
+h1{
+  color: #ffffff;
+}
+
+h2{
+  color: #E94343;
+}
+
+.task-status{
+  padding-top: 10px;
+  width: 400px;
+  margin-top: 10px;
+  border: 2px solid;
+}
+
+.delect-btn{
+  color: black;
+  background: white;
+  outline: 0;
+  padding: 5px 15px;
+  margin-left: 2px;
+}
+
+.task-name{
+  cursor: pointer;
+}
+
+.completed-task{
+  text-decoration: line-through;
+}
+
+button{
+  border: 0;
+  cursor: pointer;
+  font-size: 10px;
+  outline: 0;
+}
+
+.text-status button{
+  color: gray;
+}
+
